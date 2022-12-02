@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/bonni/Documents/advent_of_code/day_1/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/AdventCodeDay1.dir/main.cpp.o -c /home/bonni/Documents/advent_of_code/day_1/main.cpp",
+  "file": "/home/bonni/Documents/advent_of_code/day_1/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/advent_of_code/day_1/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/AdventCodeDay1.dir/FileManager.cpp.o -c /home/bonni/Documents/advent_of_code/day_1/FileManager.cpp",
+  "file": "/home/bonni/Documents/advent_of_code/day_1/FileManager.cpp"
+}
+]
