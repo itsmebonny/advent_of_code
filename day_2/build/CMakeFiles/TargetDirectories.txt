@@ -1,0 +1,3 @@
+/home/bonni/Documents/advent_of_code/day_2/build/CMakeFiles/AdventCodeDay2.dir
+/home/bonni/Documents/advent_of_code/day_2/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/advent_of_code/day_2/build/CMakeFiles/rebuild_cache.dir
