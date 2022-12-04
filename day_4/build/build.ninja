@@ -51,13 +51,13 @@ build cmake_object_order_depends_target_AdventCodeDay4: phony || CMakeFiles/Adve
 
 build CMakeFiles/AdventCodeDay4.dir/main.cpp.o: CXX_COMPILER__AdventCodeDay4_Debug /home/bonni/Documents/advent_of_code/day_4/main.cpp || cmake_object_order_depends_target_AdventCodeDay4
   DEP_FILE = CMakeFiles/AdventCodeDay4.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++11
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/AdventCodeDay4.dir
   OBJECT_FILE_DIR = CMakeFiles/AdventCodeDay4.dir
 
 build CMakeFiles/AdventCodeDay4.dir/FileManager.cpp.o: CXX_COMPILER__AdventCodeDay4_Debug /home/bonni/Documents/advent_of_code/day_4/FileManager.cpp || cmake_object_order_depends_target_AdventCodeDay4
   DEP_FILE = CMakeFiles/AdventCodeDay4.dir/FileManager.cpp.o.d
-  FLAGS = -g -std=gnu++11
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/AdventCodeDay4.dir
   OBJECT_FILE_DIR = CMakeFiles/AdventCodeDay4.dir
 
