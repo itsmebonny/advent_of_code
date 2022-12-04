@@ -20,7 +20,7 @@ public:
 
     // reads the file passed as argument, whose elements are separated by
     // the given character, and returns a table with the corresponding fields
-    const table_type& parse_file (const std::string& filename, char d = '\n');
+    const table_type& parse_file (const std::string &filename, char d = '\n');
 
 private:
     table_type fields;
