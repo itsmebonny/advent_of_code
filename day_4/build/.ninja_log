@@ -1,0 +1,7 @@
+# ninja log v5
+4	1177	1670162691929379925	CMakeFiles/AdventCodeDay4.dir/FileManager.cpp.o	2624c51da594f762
+1	799	1670162743849744073	CMakeFiles/AdventCodeDay4.dir/main.cpp.o	d6110b66aff73ab3
+799	947	1670162743993745082	AdventCodeDay4	551bce5631229daa
+2	978	1670162829254341854	CMakeFiles/AdventCodeDay4.dir/FileManager.cpp.o	2624c51da594f762
+2	1192	1670162829466343335	CMakeFiles/AdventCodeDay4.dir/main.cpp.o	d6110b66aff73ab3
+1192	1354	1670162829630344482	AdventCodeDay4	551bce5631229daa
