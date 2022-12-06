@@ -16,42 +16,28 @@ int main(){
     }
     
     std::cout << signal << std::endl;
-    bool check = true;
+    char temp;
+    int count = 0;
     std::vector<char> s;
-    s.push_back(signal[0]);
-    s.push_back(signal[1]);
-    s.push_back(signal[2]);
-    for (size_t i = 3; i < signal.length(); i++)
+    for (size_t i = 0; i < signal.length(); i++)
     {
-        for (size_t j = 0; j < s.size(); j++)
-        {
-            for (char k:s)
-            {
-                std::cout << k << " ";
-            }
-            std::cout << std::endl;
-            if (signal[i] == s[j] && s.size() < 4)
-            {
-                std::cout << "pulisco per " << signal[i] << std::endl;
-                
-                i = i - j;
-                std::cout << "inserisco " << signal[i] << std::endl;
-
-                s.clear();
-            }
-            else
-            {
-                if (s.size() == 4){
-                    std::cout << i << std::endl;
-                    i = signal.length();
-                    j = s.size();
-                    }
-            }
-
-        }
         s.push_back(signal[i]);
+        std::cout << i << " " << s.size() << std::endl;
+        if (s.size() == 14){
+            for(char k:s)
+                std::cout << k << " ";
+            std::cout << std::endl; 
+            std::unordered_set check(s.begin(), s.end());
+            if(check.size() == 14)
+               { std::cout << i+1 << std::endl;
+                i = signal.length();}
+            else
+                {   std::cout << "riprovo" << std::endl;
+                    s.clear();
+                    i -= 13;
+                }    
+            }
 
-        
     }
     
     
