@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
@@ -15,7 +15,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AdventCodeDay9::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AdventCodeDay9-1b7e93ece3cc6920cfc7.json",
+					"jsonFile" : "target-AdventCodeDay9-Debug-b8a0981208297ca1b86c.json",
 					"name" : "AdventCodeDay9",
 					"projectIndex" : 0
 				}
