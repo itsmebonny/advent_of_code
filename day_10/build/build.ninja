@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: AdventCodeDay9
+# Project: AdventCodeDay10
 # Configurations: Debug
 # =============================================================================
 
@@ -39,45 +39,45 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/bonni/Documents/advent_of_code/day_9/build/
+cmake_ninja_workdir = /home/bonni/Documents/advent_of_code/day_10/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target AdventCodeDay9
+# Object build statements for EXECUTABLE target AdventCodeDay10
 
 
 #############################################
-# Order-only phony target for AdventCodeDay9
+# Order-only phony target for AdventCodeDay10
 
-build cmake_object_order_depends_target_AdventCodeDay9: phony || CMakeFiles/AdventCodeDay9.dir
+build cmake_object_order_depends_target_AdventCodeDay10: phony || CMakeFiles/AdventCodeDay10.dir
 
-build CMakeFiles/AdventCodeDay9.dir/main.cpp.o: CXX_COMPILER__AdventCodeDay9_Debug /home/bonni/Documents/advent_of_code/day_9/main.cpp || cmake_object_order_depends_target_AdventCodeDay9
-  DEP_FILE = CMakeFiles/AdventCodeDay9.dir/main.cpp.o.d
+build CMakeFiles/AdventCodeDay10.dir/main.cpp.o: CXX_COMPILER__AdventCodeDay10_Debug /home/bonni/Documents/advent_of_code/day_10/main.cpp || cmake_object_order_depends_target_AdventCodeDay10
+  DEP_FILE = CMakeFiles/AdventCodeDay10.dir/main.cpp.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/AdventCodeDay9.dir
-  OBJECT_FILE_DIR = CMakeFiles/AdventCodeDay9.dir
+  OBJECT_DIR = CMakeFiles/AdventCodeDay10.dir
+  OBJECT_FILE_DIR = CMakeFiles/AdventCodeDay10.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target AdventCodeDay9
+# Link build statements for EXECUTABLE target AdventCodeDay10
 
 
 #############################################
-# Link the executable AdventCodeDay9
+# Link the executable AdventCodeDay10
 
-build AdventCodeDay9: CXX_EXECUTABLE_LINKER__AdventCodeDay9_Debug CMakeFiles/AdventCodeDay9.dir/main.cpp.o
+build AdventCodeDay10: CXX_EXECUTABLE_LINKER__AdventCodeDay10_Debug CMakeFiles/AdventCodeDay10.dir/main.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
-  OBJECT_DIR = CMakeFiles/AdventCodeDay9.dir
+  OBJECT_DIR = CMakeFiles/AdventCodeDay10.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = AdventCodeDay9
-  TARGET_PDB = AdventCodeDay9.dbg
+  TARGET_FILE = AdventCodeDay10
+  TARGET_PDB = AdventCodeDay10.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bonni/Documents/advent_of_code/day_9/build && /usr/bin/ccmake -S/home/bonni/Documents/advent_of_code/day_9 -B/home/bonni/Documents/advent_of_code/day_9/build
+  COMMAND = cd /home/bonni/Documents/advent_of_code/day_10/build && /usr/bin/ccmake -S/home/bonni/Documents/advent_of_code/day_10 -B/home/bonni/Documents/advent_of_code/day_10/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bonni/Documents/advent_of_code/day_9/build && /usr/bin/cmake --regenerate-during-build -S/home/bonni/Documents/advent_of_code/day_9 -B/home/bonni/Documents/advent_of_code/day_9/build
+  COMMAND = cd /home/bonni/Documents/advent_of_code/day_10/build && /usr/bin/cmake --regenerate-during-build -S/home/bonni/Documents/advent_of_code/day_10 -B/home/bonni/Documents/advent_of_code/day_10/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -105,9 +105,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/bonni/Documents/advent_of_code/day_9/build
+# Folder: /home/bonni/Documents/advent_of_code/day_10/build
 
-build all: phony AdventCodeDay9
+build all: phony AdventCodeDay10
 
 # =============================================================================
 # Unknown Build Time Dependencies.
