@@ -74,7 +74,33 @@ function read_input(directory::String, delimiter::Char=' ', type::Type=Int)
 
 end
 
+
+
+using Dates
+
+export extract_numbers
+
+"""
+    Extract the two numbers from the input string that match the pattern "mul(digit, digit)".
+
+    # Arguments
+    - `input_string::String`: The input string.
+
+    # Returns
+    - `Array{Array{Int, 1}, 1}`: A vector of vectors containing the two numbers extracted from the input string.
+"""
+
+function extract_numbers(input_string)
+    # Regular expression pattern to match "mul(digit, digit)"
+    pattern = r"mul\((\d+),\s*(\d+)\)"
+    
+    # Use the regular expression to find all matches
+    matches = collect(eachmatch(pattern, input_string))
+    
+    # Extract the two digits from each match and store them in a vector
+    result = [[parse(Int, m.captures[1]), parse(Int, m.captures[2])] for m in matches]
+    
+    return result
 end
 
-
-
+end
