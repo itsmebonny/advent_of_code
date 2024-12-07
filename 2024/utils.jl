@@ -103,4 +103,29 @@ function extract_numbers(input_string)
     return result
 end
 
+export create_map
+
+"""
+    Create a map structure where the key are the x and y coordinates and the value is character at that position.
+
+    # Arguments
+    - `input_string::String`: The input string.
+
+    # Returns
+    - `Dict{Tuple{Int64, Int64}, Char}`: A map structure where the key are the x and y coordinates and the value is character at that position.
+"""
+
+function create_map(input_string::String)
+    #create a map structure where the key are the x and y coordinates and the value is character at that position
+    map = Dict{Tuple{Int64, Int64}, Char}()
+    for (i, line) in enumerate(split(input_string, "\n"))
+        for (j, char) in enumerate(line)
+            map[(i, j)] = char
+        end
+    end
+
+    return map
+
+end
+
 end
