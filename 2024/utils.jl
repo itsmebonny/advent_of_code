@@ -128,4 +128,22 @@ function create_map(input_string::String)
 
 end
 
+export read_input_as_map
+
+"""
+    Read the modified input file and return a map structure where the key are the x and y coordinates and the value is character at that position.
+
+    # Arguments
+    - `directory::String`: The path to the modified input file.
+
+    # Returns
+    - `Dict{Tuple{Int64, Int64}, Char}`: A map structure where the key are the x and y coordinates and the value is character at that position.
+"""
+
+function read_input_as_map(directory::String)
+    # Read the modified input file
+    input_string = read(directory, String)
+    return create_map(input_string)
+end
+
 end
