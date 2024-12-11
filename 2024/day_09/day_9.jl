@@ -186,8 +186,6 @@ function efficient_compress_memory(memory_dict::Dict{Int, Int})::Dict{Int, Int}
                 break
             end
         end
-        println("====================================")
-        println("Trying to compress file ", file_checked, " with size ", file_size, " starting at key ", key)
         #we start from the first free space
         for free_space in sorted_free_spaces
             if haskey(free_spaces, free_space) && free_spaces[free_space] >= file_size && free_space < key 
@@ -211,19 +209,10 @@ function efficient_compress_memory(memory_dict::Dict{Int, Int})::Dict{Int, Int}
     return memory_dict
 end
 
-x_limit = maximum(collect(keys(memory_dict)))
-for i in 1:x_limit
-    print(memory_dict[i])
-end
-println()
+
 
 efficient_compressed_memory = efficient_compress_memory(memory_dict)
 
-x_lim = maximum(collect(keys(efficient_compressed_memory)))
-for i in 1:x_lim
-    print(efficient_compressed_memory[i])
-end
-println()
 efficient_checksum = compute_checksum(efficient_compressed_memory)
 
 
