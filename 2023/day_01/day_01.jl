@@ -25,3 +25,7 @@ for i in eachindex(inp)
 end
 
 println("Part 1: ", sum(s))
+
+dict = Dict{String, String}("one": "1", "two" : "2", "three" : "3", "four" : "4", "five" : "5", "six" : "6", "seven" : "7", "eight" : "8", "nine" : "9")
+
+p2 = parse_input("input_1")
